@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "audiobook-library": {
+      "command": "node",
+      "args": ["/path/to/audiobook-mcp-server/dist/index.js"],
+      "env": {
+        "AUDIOBOOK_ROOT": "/path/to/your/audiobook/library"
+      }
+    }
+  }
+}
